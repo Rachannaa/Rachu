@@ -7,6 +7,9 @@ if(a%2==0)
 {
 printf("\nEven");
 }
+else
+{
 printf("\nOdd");
+}
 return 0;
 }
