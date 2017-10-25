@@ -1,14 +1,14 @@
 #include<stdio.h>
 void main()
 {
-char a;
-scanf("%c",&a);
-if(a=='a' || a=='A' || a=='e' || a=='E' || a=='i' || a=='I' || a=='o' || a=='O' || a=='u' || a=='U')
+char ch;
+scanf("%c",&ch);
+if(ch=='a' || ch=='A' || ch=='e' || ch=='E' || ch=='i' || ch=='I' || ch=='o' || ch=='O' || ch=='u' || ch=='U')
 {
-printf("\n%c is a vowel",a);
+printf("\n%c is a vowel",ch);
 }
 else
 {
-printf("\n%c is not a vowel",a);
+printf("\n%c is not a vowel",ch);
 }
 }
