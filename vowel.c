@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(int)
+void main
 {
 char a;
 scanf("%c",&a);
@@ -11,5 +11,4 @@ else
 {
 printf("%c is not a vowel",a);
 }
-return 0;
 }
