@@ -7,5 +7,6 @@ for(int i=0;i<n;i++)
 {
 sum+=i;
 }
+printf("%d",sum);
 return 0;
 }
