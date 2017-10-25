@@ -5,7 +5,7 @@ int n,sum=0,value;
 scanf("%d",&n);
 for(int i=0;i<n;i++)
 {
-scanf("%d",&value);
+scanf("\n%d",&value);
 sum+=value;
 }
 return 0;
