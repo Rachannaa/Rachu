@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int a;
 scanf("%d",&a);
@@ -9,22 +9,23 @@ if(a%4==0)
   {
      if(a%400==0)
      {
-     printf("\n%d is a leap year");
+     printf("\n%d is a leap year",a);
      }
      else
      {
-     printf("\n%d is not a leap year");
+     printf("\n%d is not a leap year",a);
      }
    }
    else
    {
-   printf("\n%d is a leap year");
+   printf("\n%d is a leap year",a);
    }
 }   
 else
 {
-printf("\n%d is not a leap year");
+printf("\n%d is not a leap year",a);
 }
+returm 0;
 }
 
    
