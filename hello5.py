@@ -1,2 +1,2 @@
 a=input()
-print 5 * "\na"
+print 5 * \na
