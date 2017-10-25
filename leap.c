@@ -18,7 +18,7 @@ if(a%4==0)
    }
    else
    {
-   printf("\n%d is not a leap year");
+   printf("\n%d is a leap year");
    }
 }   
 else
