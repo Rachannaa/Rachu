@@ -1,2 +1,2 @@
-
-print 5 * "Hello"
+a=input()
+print 5 * "\na"
