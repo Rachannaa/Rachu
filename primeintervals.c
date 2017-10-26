@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int a,b,n,flag=0;
-scanf("%d%d%d",&a,&b,&c);
+int a,b,flag=0;
+scanf("%d\n%d",&a,&b);
 while(a<b)
 {
-  for(i=2;i<=n/2;i++)
+  for(int i=2;i<=n/2;i++)
   {
-    if(n%i==0)
+    if(low%i==0)
     {
     flag=1;
     break;
