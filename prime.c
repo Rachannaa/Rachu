@@ -16,7 +16,7 @@ printf("\n%d is a prime number",n);
 }
 else
 {
-printf("\n%d is not a palindrome");
+printf("\n%d is not a palindrome",n);
 }
 return 0;
 }
