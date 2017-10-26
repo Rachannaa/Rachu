@@ -12,7 +12,7 @@ n/=10;
 }
 if(revint==orint)
 {
-printf("\n%d is a palindrome,orint");
+printf("\n%d is a palindrome",orint);
 }
 else
 {
