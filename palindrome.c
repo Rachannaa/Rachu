@@ -16,7 +16,7 @@ printf("\n%d is a palindrome,orint");
 }
 else
 {
-printf(\n%d is not a palindrome",orint);
+printf("\n%d is not a palindrome",orint);
 }
 return 0;
 }
